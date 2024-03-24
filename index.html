@@ -10,17 +10,28 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
 <body>
+
     <header>
         <nav>
             <h1 class="navbar-title"><i class="fas fa-gamepad"></i> Welcome to CLUBSTIC-GOLF</h1>
             <ul class="developer-links">
-                <li><a href="#akashdeep-section">Akashdeep Singh</a></li>
-                <li><a href="#navraj-section">Navraj Singh</a></li>
-                <li><a href="#surya-section">Surya Tumpati</a></li>
+                <li><button class="developer-button" data-section-id="akashdeep-section">Akashdeep Singh</button></li>
+                <li><button class="developer-button" data-section-id="navraj-section">Navraj Singh</button></li>
+                <li><button class="developer-button" data-section-id="surya-section">Sai Surya</button></li>
             </ul>
+            
+            <div class="filter-icon">
+                <i class="fas fa-filter"></i>
+                <ul class="developer-list">
+                    <li><a href="#" data-section-id="all-sections">All Developers</a></li>
+                    <li><a href="#" data-section-id="akashdeep-section">Akashdeep Singh</a></li>
+                    <li><a href="#" data-section-id="navraj-section">Navraj Singh</a></li>
+                    <li><a href="#" data-section-id="surya-section">Sai Surya</a></li>
+                </ul>
+            </div>            
         </nav>
-    </header>
-    
+                  
+    </header>    
     
     <main>
         <section id="akashdeep-section">
@@ -36,9 +47,7 @@
                 <h3>Game Name: Psychic Delta</h3>
                 <p><a href="https://akashdeepsingh0047.github.io/psychic-delta/">Game Link</a></p>
                 <p><a href="https://github.com/AkashdeepSingh0047/psychic-delta?tab=readme-ov-file">Game Repo</a></p>
-            </div>
-
-            
+            </div> 
 
         </section>
         
@@ -74,8 +83,9 @@
                 <p><a href="https://github.com/vamsiss/delta-cis376">Game Repo</a></p>
             </div>
         </section>
-    </main>
 
+    </main>
+        
     <footer>
         <div class="developers-github">
             <p>Developers' github:</p>
@@ -95,5 +105,6 @@
             <a href="https://github.com/AkashdeepSingh0047/clubstick-golf-Team-3" class="repo-link"> See Code on GitHub</a></p>
         </div>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
