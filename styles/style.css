@@ -135,17 +135,87 @@ nav {
 /* Set background images for game cards */
 .game-card:nth-child(odd) {
     background-image: url('https://wallpaperaccess.com/full/1454333.jpg');
+
 }
 
 .game-card:nth-child(even) {
     background-image: url('https://cdn.3dnames.co/samples/800x533/wt033dnames3dxx.jpg');
+
 }
 
 /* Set background images for Akashdeep Singh's game cards */
 #akashdeep-section .game-card:nth-child(even) {
     background-image: url('https://wallpaperaccess.com/full/1454333.jpg');
+
 }
 
 #akashdeep-section .game-card:nth-child(odd) {
     background-image: url('https://cdn.3dnames.co/samples/800x533/wt033dnames3dxx.jpg');
+}
+
+.developer-button {    
+    font-family: "Audiowide", Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.developer-button:hover {
+    transform: scale(1.5);
+}
+
+.filter-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.filter-icon:hover {
+    transform: scale(1.5);
+}
+
+.filter-icon i {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.filter-icon i:hover {
+    color: #ddd; /* Change color on hover if needed */
+}
+
+.filter-icon {
+    position: relative; /* Ensure proper positioning of the list */
+}
+
+.developer-list {
+    width: 180px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1;
+}
+
+.developer-list.show {
+    display: block;
+}
+
+.developer-list li {
+    list-style: none;
+}
+
+.developer-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.developer-list a:hover {
+    color: #555;
 }
